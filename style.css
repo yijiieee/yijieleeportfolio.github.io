@@ -1,0 +1,59 @@
+/* style.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+
+#about {
+  background-color: #121116;
+  background-image: url('bg1.jpg'); 
+  background-size: cover;
+
+}
+  
+#projects {
+  background-color: #121116;
+
+}
+
+#home {
+  background-image: url('bg2.jpg'); 
+  background-size:cover;
+}
+
+#contact {
+  background-color: white;
+    padding: 20px; /* Add padding to space the content from the edges */
+}
+
+ footer {
+        background-color: black;
+        padding: 30px 0;
+    }
+    
+    /* Styling for white text */
+    .text-white {
+        color: white;
+    }
+    
+    /* Center-align the social media links */
+    .social-links {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    /* Style for email and phone number */
+    .contact-info {
+        font-size: 14px;
+    }
